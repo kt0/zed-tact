@@ -1,0 +1,16 @@
+id = "tact"
+name = "Tact"
+version = "0.0.1"
+schema_version = 1
+authors = ["KiTO <you@example.com>"]
+description = "Tact"
+repository = "https://github.com/your-name/my-zed-extension"
+
+
+[grammars.tact]
+repository = "https://github.com/tact-lang/tree-sitter-tact"
+commit = "91cc49a83f4f0b3a756bf7d0e65403a9cf757003"
+
+[grammars.func]
+repository = "https://github.com/tree-sitter-grammars/tree-sitter-func"
+commit = "f780ca55e65e7d7360d0229331763e16c452fc98"

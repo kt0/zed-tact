@@ -1,0 +1,11 @@
+name = "Func"
+grammar = "func"
+code_fence_block_name = "func"
+path_suffixes = ["fc"]
+line_comments = [";; "]
+autoclose_before = "}])>"
+brackets = [
+    { start = "{", end = "}", close = true, newline = true },
+    { start = "[", end = "]", close = true, newline = true },
+    { start = "(", end = ")", close = true, newline = true },
+]
