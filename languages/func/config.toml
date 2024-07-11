@@ -1,7 +1,7 @@
 name = "Func"
 grammar = "func"
 code_fence_block_name = "func"
-path_suffixes = ["fc"]
+path_suffixes = ["fc", "func"]
 line_comments = [";; "]
 autoclose_before = "}])>"
 brackets = [
